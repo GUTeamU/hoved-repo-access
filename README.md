@@ -2,14 +2,14 @@ hoved-repo-access
 =================
 
 1. Add this to your `~/.ssh/config` for convenience:
-```
+```conf
 Host sibu
-  Hostname sibu.dcs.gla.ac.uk
-  User YOUR_MATRIC_NUMBER
+        Hostname sibu.dcs.gla.ac.uk
+        User YOUR_MATRIC_NUMBER
 Host hovedgit
-  Hostname localhost
-  Port 9999
-  User YOUR_MATRIC_NUMBER
+        Hostname localhost
+        Port 9999
+        User YOUR_MATRIC_NUMBER
 ```
 
 2. Set up a tunnel:
