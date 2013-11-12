@@ -1,7 +1,7 @@
 hoved-repo-access
 =================
 
-Add this to your `~/.ssh/config` for convenience:
+1. Add this to your `~/.ssh/config` for convenience:
 
 ```
 Host sibu
@@ -13,12 +13,12 @@ Host hovedgit
   User YOUR_MATRIC_NUMBER
 ```
 
-Set up a tunnel:
+2. Set up a tunnel:
 ```bash
 ssh -L9999:hoved:22 sibu
 ```
 
-Clone the repository:
+3. In a new terminal clone the repository:
 ```bash
 git clone hovedgit:/extra/2013/u/git/REPO_NAME
 ```
