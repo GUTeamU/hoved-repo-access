@@ -2,7 +2,6 @@ hoved-repo-access
 =================
 
 1. Add this to your `~/.ssh/config` for convenience:
-
 ```
 Host sibu
   Hostname sibu.dcs.gla.ac.uk
